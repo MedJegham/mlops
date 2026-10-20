@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Med/Polytech/MLOps/Tp1/mlruns/1/models/m-5fdf5752077546148cb6778a2bf75a20/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.1
+model_id: m-5fdf5752077546148cb6778a2bf75a20
+model_size_bytes: 904617
+model_uuid: m-5fdf5752077546148cb6778a2bf75a20
+prompts: null
+run_id: 0ce9e4942e6b4e0ea243c351030303a5
+utc_time_created: '2026-10-20 08:53:19.455075'
